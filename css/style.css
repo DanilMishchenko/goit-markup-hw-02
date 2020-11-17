@@ -18,6 +18,8 @@
   --main-light-gray-color: #f5f4fa;
 }
 
+/* Общие */
+
 body {
   color: var(--primary-text-color);
   background-color: var(--main-color);
@@ -36,6 +38,8 @@ ul {
   list-style: none;
 }
 
+/* Лого шапки и подвала */
+
 .header-logo,
 .fooder-logo {
   color: var(--accent-color);
@@ -48,6 +52,16 @@ ul {
 .header-logo .studio {
   color: var(--title-text-color);
 }
+
+.fooder-logo .studio,
+
+/* Адресс подвал */
+
+.fooder .addres {
+  color: var(--main-color);
+}
+
+/* Навигация шапки */
 
 .site-nav {
   font-weight: 500;
@@ -74,6 +88,8 @@ ul {
   color: var(--accent-color);
 }
 
+/* Контакты шапки */
+
 .contacts-header a {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -88,6 +104,8 @@ ul {
 .contacts-fooder a:focus {
   color: var(--accent-color);
 }
+
+/* Герой */
 
 .hero {
   background-color: var(--main-dark-gray-color);
@@ -117,14 +135,22 @@ ul {
   line-height: 1.17;
 }
 
+/* Лист особенности */
+
 .features-list .title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
 }
 
+/* Секция Наша Команда */
+
 .section-team {
   background-color: var(--main-light-gray-color);
+}
+
+.team-container {
+  background-color: var(--main-color);
 }
 
 .title {
@@ -133,6 +159,8 @@ ul {
   font-size: 16px;
   line-height: 1.19;
 }
+
+/* Подвал */
 
 .fooder {
   background-color: var(--main-dark-gray-color);
@@ -145,4 +173,37 @@ ul {
 
 .contacts-fooder a {
   color: var(--footer-contacts-text-color);
+}
+
+/* Портфолио */
+
+.content-selector button {
+  color: var(--title-text-color);
+  background-color: var(--main-light-gray-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.content-selector button:hover,
+.content-selector button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+.content-container title {
+  color: var(--title-text-color);
+}
+
+.content-list h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.content-list p {
+  font-size: 16px;
+  line-height: 1.88;
 }
